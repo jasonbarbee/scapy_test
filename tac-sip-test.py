@@ -1,5 +1,6 @@
 # Jason Barbee jbarbee@cspire.com
 # Solutions Architect / C Spire
+# Testing SIP some ClientHello parameters, TLS 1.0 outer record layer, and skewing the GMT time field, which deviates from the RFC standard of current time.
 import socket
 from scapy.all import *
 from scapy.layers.tls import *
